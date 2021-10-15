@@ -1,6 +1,4 @@
-// I was chaned a litte
-
-var gr = new GlideRecord('task');
+var gr = new GlideRecord('incident');
 
 gr.addQuery('number', 'INC0010001');
 gr.query();
